@@ -11,7 +11,7 @@ const galleryFooter = `<a rel="license" target="_blank" href="${https}//creative
 let ppts, tabsOptions, panesOptions;
 
 window.addEventListener('DOMContentLoaded', () => {
-    fetchData('js/data/translations/en-us/external/ppts.min.json')
+    fetchData('js/i18n/en-us/ppts.min.json')
     .then(data => {
         ppts = data.ppts;
         panesOptions = data.panesOptions;
