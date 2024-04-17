@@ -2,7 +2,7 @@
 
 const https = 'https://';
 
-const cardTemplate = `<div class="col-md-6 col-lg-4"><div class="card border-0 transform-on-hover"><a href="${https}{0}" target="_blank"><img src="img/prezis/{1}.jpg" alt="{2}" class="card-img-top"></a><div class="card-body"><h6><a href="#" class="text-decoration-none">{3}</a></h6><p class="text-muted card-text">{4} {5}</p></div></div></div>`;
+const cardTemplate = `<div class="col-md-6 col-lg-4"><div class="card border-0 transform-on-hover"><a href="${https}{0}" target="_blank"><img src="img/prezis/{1}.jpg" loading="lazy" alt="{2}" class="card-img-top"></a><div class="card-body"><h6><a href="#" class="text-decoration-none">{3}</a></h6><p class="text-muted card-text">{4} {5}</p></div></div></div>`;
 
 const galleryTitle = "Federico Navarrete — Presentations Gallery";
 
