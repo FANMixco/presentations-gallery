@@ -66,6 +66,5 @@ function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'es,nl,de,fr,it,en,pt', autoDisplay: false, layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 
-googleTranslateElementInit();
-
 loadGAnalytics();
+googleTranslateElementInit();
