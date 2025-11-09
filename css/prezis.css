@@ -29,3 +29,20 @@ footer {
     margin: auto;
     text-align: center
 }
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #FAFAFA;
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  /* Revert the inversion for images, videos, and media */
+  img, video, picture, svg, canvas {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  .preziIcon {
+    filter: invert(0) hue-rotate(180deg)!important;
+  }
+}
